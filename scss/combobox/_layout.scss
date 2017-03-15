@@ -30,5 +30,16 @@
                 right: calc(#{$icon-size} + #{$padding-y-lg * 3});
             }
         }
+
+        // RTL styles
+        &[dir = "rtl"],
+        .k-rtl & {
+            > .k-dropdown-wrap {
+                > .k-i-close {
+                    left: calc(#{$icon-size} + #{$padding-y-lg * 3});
+                    right: auto;
+                }
+            }
+        }
     }
 }

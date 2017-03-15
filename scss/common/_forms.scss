@@ -19,8 +19,13 @@
         vertical-align: middle;
         position: relative;
 
-        &[dir='rtl'] {
+        &[dir = "rtl"],
+        .k-rtl & {
             text-align: right;
+
+            .k-select {
+                @include border-radius( $border-radius 0 0 $border-radius );
+            }
         }
     }
 
