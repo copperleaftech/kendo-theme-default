@@ -33,12 +33,7 @@
 
 
         // Content
-        .k-content {
-
-            .k-link {
-                border-radius: 50%;
-            }
-        }
+        .k-content {}
 
         .k-content thead {
             @include appearance( header );
