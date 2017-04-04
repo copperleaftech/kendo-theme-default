@@ -110,6 +110,12 @@
     .k-flip-v { transform: scaleY(-1); }
     .k-flip-h.k-flip-v { transform: scale(-1, -1); }
 
+
+    // Hiding
+    .k-hidden {
+        display: none !important; // sass-lint:disable-block no-important
+    }
+
 }
 
 
