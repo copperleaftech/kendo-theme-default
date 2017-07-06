@@ -6,7 +6,7 @@
 
     $window-titlebar-border-color: inherit !default;
     $window-titlebar-bg: $accent none !default;
-    $window-titlebar-text: contrast-wcag($window-titlebar-bg) !default;
+    $window-titlebar-text: $accent-contrast !default;
 
     .k-window {
         @include appearance( panel );

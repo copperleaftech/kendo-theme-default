@@ -1,7 +1,7 @@
 @include exports("dialog/theme") {
 
     $dialog-titlebar-bg: $accent none !default;
-    $dialog-titlebar-text: contrast-wcag($dialog-titlebar-bg) !default;
+    $dialog-titlebar-text: $accent-contrast !default;
 
     .k-dialog {}
 
